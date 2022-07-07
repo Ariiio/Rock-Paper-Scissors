@@ -3,10 +3,32 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    border: none;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: thistle;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .2s ease-out all;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
 .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 64px;
+    height: 100%;
 }
